@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hybrid_Frame_TestNG]">
+  <parameter name="password" value="arf"/>
+  <parameter name="cc_frst_name" value="arf"/>
+  <parameter name="cc_last_name" value="arf"/>
+  <parameter name="username" value="arf"/>
+  <parameter name="creditnumbers" value="123"/>
+  <test name="Check for successful user&#039;s login, Search Flight and purchase(failed)">
+    <classes>
+      <class name="appModular.UserLogoutTest">
+        <methods>
+          <include name="getCtx"/>
+          <include name="getCtx"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- appModular.UserLogoutTest -->
+      <class name="appModular.SearchFlight">
+        <methods>
+          <include name="searchFlight"/>
+          <include name="getCtx"/>
+          <include name="getCtx"/>
+        </methods>
+      </class> <!-- appModular.SearchFlight -->
+      <class name="appModular.UserLoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- appModular.UserLoginTest -->
+      <class name="appModular.PassengerDetails">
+        <methods>
+          <include name="enterDetails"/>
+          <include name="getCtx"/>
+        </methods>
+      </class> <!-- appModular.PassengerDetails -->
+      <class name="appModular.BookTicket">
+        <methods>
+          <include name="getCtx"/>
+          <include name="BookTicket"/>
+        </methods>
+      </class> <!-- appModular.BookTicket -->
+    </classes>
+  </test> <!-- Check for successful user's login, Search Flight and purchase(failed) -->
+  <test name="Check for successful user&#039;s login, Search Flight without purchase(failed)">
+    <classes>
+      <class name="appModular.UserLogoutTest">
+        <methods>
+          <include name="getCtx"/>
+          <include name="getCtx"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- appModular.UserLogoutTest -->
+      <class name="appModular.SearchFlight">
+        <methods>
+          <include name="searchFlight"/>
+          <include name="getCtx"/>
+          <include name="getCtx"/>
+        </methods>
+      </class> <!-- appModular.SearchFlight -->
+      <class name="appModular.UserLoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- appModular.UserLoginTest -->
+      <class name="appModular.PassengerDetails">
+        <methods>
+          <include name="getCtx"/>
+        </methods>
+      </class> <!-- appModular.PassengerDetails -->
+      <class name="appModular.BookTicket">
+        <methods>
+          <include name="getCtx"/>
+        </methods>
+      </class> <!-- appModular.BookTicket -->
+    </classes>
+  </test> <!-- Check for successful user's login, Search Flight without purchase(failed) -->
+</suite> <!-- Failed suite [Hybrid_Frame_TestNG] -->

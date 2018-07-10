@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hybrid_Frame_TestNG" duration-ms="14574" started-at="2018-07-10T00:07:02Z" finished-at="2018-07-10T00:07:17Z">
+    <groups>
+    </groups>
+    <test name="Check for successful user&#039;s login, Search Flight and purchase" duration-ms="8122" started-at="2018-07-10T00:07:02Z" finished-at="2018-07-10T00:07:10Z">
+      <class name="appModular.BookTicket">
+        <test-method status="PASS" signature="getCtx(org.testng.ITestContext)[pri:0, instance:appModular.BookTicket@3884b2]" name="getCtx" is-config="true" duration-ms="1" started-at="2018-07-09T17:07:08Z" finished-at="2018-07-09T17:07:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1eb4a3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCtx -->
+        <test-method status="PASS" signature="BookTicket()[pri:0, instance:appModular.BookTicket@3884b2]" name="BookTicket" duration-ms="515" started-at="2018-07-09T17:07:08Z" finished-at="2018-07-09T17:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookTicket -->
+      </class> <!-- appModular.BookTicket -->
+      <class name="appModular.UserLoginTest">
+        <test-method status="PASS" signature="setUpDriver(java.lang.String)[pri:0, instance:appModular.UserLoginTest@1fa1d9b]" name="setUpDriver" is-config="true" duration-ms="3073" started-at="2018-07-09T17:07:02Z" finished-at="2018-07-09T17:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="storeDriver(org.testng.ITestContext)[pri:0, instance:appModular.UserLoginTest@1fa1d9b]" name="storeDriver" is-config="true" duration-ms="0" started-at="2018-07-09T17:07:05Z" finished-at="2018-07-09T17:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1eb4a3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeDriver -->
+        <test-method status="PASS" signature="getCtx(org.testng.ITestContext)[pri:0, instance:appModular.UserLoginTest@1fa1d9b]" name="getCtx" is-config="true" duration-ms="31" started-at="2018-07-09T17:07:05Z" finished-at="2018-07-09T17:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1eb4a3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCtx -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:appModular.UserLoginTest@1fa1d9b]" name="login" duration-ms="1637" started-at="2018-07-09T17:07:05Z" finished-at="2018-07-09T17:07:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- appModular.UserLoginTest -->
+      <class name="appModular.UserLogoutTest">
+        <test-method status="PASS" signature="getCtx(org.testng.ITestContext)[pri:0, instance:appModular.UserLogoutTest@167c1fc]" name="getCtx" is-config="true" duration-ms="1" started-at="2018-07-09T17:07:09Z" finished-at="2018-07-09T17:07:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1eb4a3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCtx -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:appModular.UserLogoutTest@167c1fc]" name="logout" duration-ms="574" started-at="2018-07-09T17:07:09Z" finished-at="2018-07-09T17:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:appModular.UserLogoutTest@167c1fc]" name="closebrowser" is-config="true" duration-ms="652" started-at="2018-07-09T17:07:10Z" finished-at="2018-07-09T17:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- appModular.UserLogoutTest -->
+      <class name="appModular.SearchFlight">
+        <test-method status="PASS" signature="getCtx(org.testng.ITestContext)[pri:0, instance:appModular.SearchFlight@d25987]" name="getCtx" is-config="true" duration-ms="3" started-at="2018-07-09T17:07:07Z" finished-at="2018-07-09T17:07:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1eb4a3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCtx -->
+        <test-method status="PASS" signature="searchFlight()[pri:0, instance:appModular.SearchFlight@d25987]" name="searchFlight" duration-ms="1371" started-at="2018-07-09T17:07:07Z" finished-at="2018-07-09T17:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+      </class> <!-- appModular.SearchFlight -->
+      <class name="appModular.PassengerDetails">
+        <test-method status="PASS" signature="getCtx(org.testng.ITestContext)[pri:0, instance:appModular.PassengerDetails@101b7af]" name="getCtx" is-config="true" duration-ms="1" started-at="2018-07-09T17:07:08Z" finished-at="2018-07-09T17:07:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1eb4a3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCtx -->
+        <test-method status="PASS" signature="enterDetails()[pri:0, instance:appModular.PassengerDetails@101b7af]" name="enterDetails" duration-ms="240" started-at="2018-07-09T17:07:08Z" finished-at="2018-07-09T17:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+      </class> <!-- appModular.PassengerDetails -->
+    </test> <!-- Check for successful user's login, Search Flight and purchase -->
+    <test name="Check for successful user&#039;s login, Search Flight without purchase" duration-ms="6410" started-at="2018-07-10T00:07:10Z" finished-at="2018-07-10T00:07:17Z">
+      <class name="appModular.UserLoginTest">
+        <test-method status="PASS" signature="setUpDriver(java.lang.String)[pri:0, instance:appModular.UserLoginTest@93dd95]" name="setUpDriver" is-config="true" duration-ms="2266" started-at="2018-07-09T17:07:10Z" finished-at="2018-07-09T17:07:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="getCtx(org.testng.ITestContext)[pri:0, instance:appModular.UserLoginTest@93dd95]" name="getCtx" is-config="true" duration-ms="1" started-at="2018-07-09T17:07:13Z" finished-at="2018-07-09T17:07:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b3b1ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCtx -->
+        <test-method status="PASS" signature="storeDriver(org.testng.ITestContext)[pri:0, instance:appModular.UserLoginTest@93dd95]" name="storeDriver" is-config="true" duration-ms="0" started-at="2018-07-09T17:07:13Z" finished-at="2018-07-09T17:07:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b3b1ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeDriver -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:appModular.UserLoginTest@93dd95]" name="login" duration-ms="1589" started-at="2018-07-09T17:07:13Z" finished-at="2018-07-09T17:07:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- appModular.UserLoginTest -->
+      <class name="appModular.UserLogoutTest">
+        <test-method status="PASS" signature="getCtx(org.testng.ITestContext)[pri:0, instance:appModular.UserLogoutTest@14b1c02]" name="getCtx" is-config="true" duration-ms="1" started-at="2018-07-09T17:07:15Z" finished-at="2018-07-09T17:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b3b1ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCtx -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:appModular.UserLogoutTest@14b1c02]" name="logout" duration-ms="565" started-at="2018-07-09T17:07:15Z" finished-at="2018-07-09T17:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:appModular.UserLogoutTest@14b1c02]" name="closebrowser" is-config="true" duration-ms="647" started-at="2018-07-09T17:07:16Z" finished-at="2018-07-09T17:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- appModular.UserLogoutTest -->
+      <class name="appModular.SearchFlight">
+        <test-method status="PASS" signature="getCtx(org.testng.ITestContext)[pri:0, instance:appModular.SearchFlight@1622fdf]" name="getCtx" is-config="true" duration-ms="2" started-at="2018-07-09T17:07:14Z" finished-at="2018-07-09T17:07:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b3b1ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCtx -->
+        <test-method status="PASS" signature="searchFlight()[pri:0, instance:appModular.SearchFlight@1622fdf]" name="searchFlight" duration-ms="1335" started-at="2018-07-09T17:07:14Z" finished-at="2018-07-09T17:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+      </class> <!-- appModular.SearchFlight -->
+    </test> <!-- Check for successful user's login, Search Flight without purchase -->
+  </suite> <!-- Hybrid_Frame_TestNG -->
+</testng-results>

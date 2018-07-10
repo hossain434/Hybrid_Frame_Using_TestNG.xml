@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hybrid_Frame_TestNGs]" parallel="none" allow-return-values="true">
+  <test name="Check for successful user login(failed)" parallel="none">
+    <classes>
+      <class name="Hybrid_Frame_TestNG.SearchFlight">
+        <methods>
+          <include name="getCtx"/>
+          <include name="searchFlight"/>
+        </methods>
+      </class> <!-- Hybrid_Frame_TestNG.SearchFlight -->
+      <class name="Hybrid_Frame_TestNG.BookTicket">
+        <methods>
+          <include name="BookTicket"/>
+          <include name="getCtx"/>
+        </methods>
+      </class> <!-- Hybrid_Frame_TestNG.BookTicket -->
+      <class name="Hybrid_Frame_TestNG.PassengerDetails">
+        <methods>
+          <include name="enterDetails"/>
+          <include name="getCtx"/>
+        </methods>
+      </class> <!-- Hybrid_Frame_TestNG.PassengerDetails -->
+      <class name="Hybrid_Frame_TestNG.UserLoginTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="getCtx"/>
+          <include name="storeDriver"/>
+        </methods>
+      </class> <!-- Hybrid_Frame_TestNG.UserLoginTest -->
+    </classes>
+  </test> <!-- Check for successful user login(failed) -->
+</suite> <!-- Failed suite [Hybrid_Frame_TestNGs] -->
